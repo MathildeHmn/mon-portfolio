@@ -1,0 +1,599 @@
+/* MEDIA QUERIES */
+@media screen and (max-width: 1024px) {
+    /* GLOBAL */
+    section {
+        padding: 3rem 0;
+    }
+    /* REUSABLE */
+    .container {
+        width: 90%;
+    }
+    .section-heading h4 {
+        font-size: 5rem;
+        letter-spacing: 6px;
+    }
+    .section-heading h4::before {
+        width: 16rem;
+        height: 3px;
+    }
+    .section-heading h5 {
+        font-size: 1.1rem;
+        letter-spacing: 1.3px;
+    }
+    /* HEADER */
+    .nav-list {
+        flex-direction: column;
+    }
+    li {
+        margin: 2rem 0;
+    }
+    .nav-link {
+        font-size: 3.5rem;
+    }
+    .menu-toggler {
+        width: 4rem;
+        height: 3rem;
+    }
+    .landing-text h5 {
+        font-size: 8rem;
+    }
+    .landing-text h1,
+    .landing-text h2 {
+        font-size: 2.8rem;
+    }
+    .trait {
+        width: 300px;
+    }
+    /* ABOUT */
+    .about .container {
+        display: block;
+    }
+    .profile-img img {
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .about-details .nav-list {
+        flex-direction: initial;
+    }
+    .about-details {
+        flex-direction: initial;
+        padding: 30px 50px;
+    }
+    .social-media {
+        padding: 10px 15px;
+    }
+    .nav-list i {
+        padding: 10px 30px;
+    }
+    #hobbies {
+        padding-top: 0;
+    }
+    .cv input {
+        margin-left: 40%;
+    }
+    /* PORTFOLIO */
+    .portfolio .container {
+        width: 70%;
+    }
+    .portfolio-item {
+        display: inline-block;
+        vertical-align: middle;
+        float: none;
+    }
+    .portfolio img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+    }
+    .portfolio-description {
+        padding-top: 30px;
+    }
+    .portfolio-description input {
+        width: 30%;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .about .container {
+        display: block;
+    }
+    .profile-img img {
+        width: 60%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .about-details {
+        padding: 20px 50px;
+    }
+    .about-details .nav-list {
+        flex-direction: initial;
+    }
+    .nav-list {
+        flex-direction: column;
+    }
+    li {
+        margin: 2rem 0;
+    }
+    .nav-list i {
+        padding: 0 30px;
+        font-size: 1.8rem;
+    }
+    #hobbies p {
+        width: 100%;
+        text-align: center;
+        font-size: 1.2rem;
+        line-height: 1.8;
+    }
+    .portfolio-description input {
+        width: 40%;
+    }
+}
+@media screen and (max-width: 768px) {
+    /* HEADER */
+    .menu-toggler {
+        top: 2.5rem;
+        right: 2.5rem;
+    }
+    .nav-link {
+        font-size: 2.5rem;
+    }
+    .landing-text h5 {
+        font-size: 7rem;
+    }
+    .landing-text h2,
+    .landing-text h1 {
+        font-size: 2.5rem;
+    }
+    .trait {
+        margin-top: 20px;
+        width: 250px;
+    }
+    .cv input {
+        margin-top: 5%;
+        margin-left: 35%;
+        width: 30%;
+    }
+    /* PORTFOLIO */
+    .portfolio .container {
+        width: 70%;
+    }
+    .portfolio-item {
+        display: inline-block;
+        vertical-align: middle;
+        float: none;
+    }
+    .portfolio img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+    .portfolio-description {
+        padding-top: 30px;
+    }
+    .portfolio-description h5 {
+        font-size: 2.1rem;
+    }
+    .portfolio-description p {
+        font-size: 1.1rem;
+        line-height: 1.5;
+    }
+    .portfolio-description input {
+        width: 30%;
+        font-size: 1.3rem;
+    }
+    /* SKILLS */
+    .my-skills {
+        grid-template-columns: repeat(auto-fit, minmax(6rem, 1fr));
+    }
+    .skill h6 {
+        letter-spacing: 1.5px;
+        font-size: 14px;
+    }
+    .icon-container {
+        width: 5rem;
+        height: 5rem;
+    }
+    .icon-container i {
+        font-size: 2.5rem;
+    }
+    .tools h6, .know-how h6 {
+        font-size: 16px;
+    }
+    .tools p, .know-how p {
+        font-size: 14px;
+    }
+    /* EDUCATION */
+    .studies ul {
+        padding: 3rem;
+        width: 90%;
+    }
+    .studies h5 {
+        font-size: 1.4rem;
+    }
+    .studies p {
+        font-size: 0.9rem;
+    }
+}
+@media screen and (max-width: 600px) {
+    /* HEADER */
+    .menu-toggler {
+        top: 2.5rem;
+        right: 2.5rem;
+    }
+    .nav-link {
+        font-size: 2.5rem;
+    }
+    .landing-text h5 {
+        font-size: 7rem;
+    }
+    .landing-text h2,
+    .landing-text h1 {
+        font-size: 2.5rem;
+    }
+    .trait {
+        margin-top: 20px;
+        width: 250px;
+    }
+    /* ABOUT */
+    .cv input {
+        margin-top: 5%;
+        margin-left: 35%;
+        width: 30%;
+    }
+    /* PORTFOLIO */
+    .portfolio .container {
+        width: 70%;
+    }
+    .portfolio-item {
+        display: inline-block;
+        vertical-align: middle;
+        float: none;
+    }
+    .portfolio img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+    .portfolio-description {
+        padding-top: 30px;
+    }
+    .portfolio-description h5 {
+        font-size: 2.1rem;
+    }
+    .portfolio-description p {
+        font-size: 1.1rem;
+        line-height: 1.5;
+    }
+    .portfolio-description input {
+        width: 30%;
+        font-size: 1.3rem;
+    }
+    /* SKILLS */
+    .my-skills {
+        grid-template-columns: repeat(auto-fit, minmax(6rem, 1fr));
+    }
+    .skill h6 {
+        letter-spacing: 1.5px;
+        font-size: 14px;
+    }
+    .icon-container {
+        width: 5rem;
+        height: 5rem;
+    }
+    .icon-container i {
+        font-size: 2.5rem;
+    }
+    .tools h6, .know-how h6 {
+        font-size: 16px;
+    }
+    .tools p, .know-how p {
+        font-size: 14px;
+    }
+    /* EDUCATION */
+    .studies ul {
+        padding: 3rem;
+        width: 90%;
+    }
+    .studies h5 {
+        font-size: 1.4rem;
+    }
+    .studies p {
+        font-size: 0.9rem;
+    }
+    /* FOOTER */
+    .up {
+        width: 4rem;
+        height: 4rem;
+        top: -2rem;
+        right: 3rem;
+    }
+    .up i {
+        font-size: 1.8rem;
+    }
+}
+@media screen and (max-width: 450px) {
+    /* HEADER */
+    .menu-toggler {
+        top: 2.5rem;
+        right: 2.5rem;
+    }
+    .nav-link {
+        font-size: 2.5rem;
+    }
+    .landing-text h5 {
+        font-size: 6rem;
+    }
+    .landing-text h2,
+    .landing-text h1 {
+        font-size: 2.1rem;
+    }
+    .trait {
+        margin-top: 20px;
+        width: 200px;
+    }
+    .cv input {
+        margin-top: 25px;
+        margin-left: 24%;
+        width: 50%;
+    }
+    .section-heading h4 {
+        font-size: 4.3rem;
+        letter-spacing: 3px;
+    }
+    .section-heading h4::before {
+        width: 14rem;
+        height: 3px;
+    }
+    .portfolio-description input {
+        margin-top: 10px;
+        padding: 5px 5px;
+        width: 40%;
+    }
+    .my-skills {
+        margin-top: 4rem;
+    }
+    .icon-container {
+        width: 5rem;
+        height: 5rem;
+    }
+    .icon-container i {
+        font-size: 2.5rem;
+    }
+    .tools, .know-how {
+        margin-top: 2rem;
+    }
+    .tools h6, .know-how h6 {
+        font-size: 16px;
+    }
+    .tools p, .know-how p {
+        font-size: 14px;
+    }
+    .studies h5 {
+        font-size: 1.4rem;
+    }
+    .studies h6 {
+        font-size: 1.5rem;
+    }
+    input[type="submit"] {
+        margin-left: 20%;
+        width: 60%;
+        font-size: 1.6rem;
+    }
+    .up {
+        width: 3.5rem;
+        height: 3.5rem;
+        top: -2rem;
+        right: 1.5rem;
+    }
+    .copyright p {
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width: 414px) {
+    input[type="submit"] {
+        margin-left: 25%;
+        width: 50%;
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 375px) {
+    .menu-toggler {
+        width: 3rem;
+        height: 3rem;
+        top: 2rem;
+        right: 2rem;
+    }
+    .landing-text h5 {
+        font-size: 4rem;
+    }
+    .landing-text h2,
+    .landing-text h1 {
+        font-size: 1.3rem;
+    }
+    .trait {
+        width: 160px;
+    }
+    .section-heading h4 {
+        font-size: 3rem;
+    }
+    .section-heading h5 {
+        font-size: 1rem;
+    }
+    .about-heading h5 {
+        font-size: 2.2rem;
+    }
+    .about-heading p {
+        font-size: 1.1rem;
+    }
+    .nav-list i {
+        padding: 0 22px;
+        font-size: 1.3rem;
+    }
+    .cv input {
+        width: 60%;
+        font-size: 1.5rem;
+    }
+    .portfolio-description h5 {
+        font-size: 1.6rem;
+    }
+    .portfolio-description p {
+        font-size: 0.9rem;
+    }
+    .portfolio-description input {
+        width: 50%;
+    }
+    .studies ul {
+        padding: 2rem;
+        width: 90%;
+    }
+    .studies h5 {
+        line-height: 1.5;
+        font-size: 1.4rem;
+    }
+    .studies p {
+        font-size: 0.9rem;
+    }
+    form label {
+        font-size: 2.2rem;
+    }
+    input[type="submit"] {
+        margin-left: 25%;
+        width: 50%;
+        font-size: 1.3rem;
+        letter-spacing: 1.5px;
+    }
+    .up {
+        width: 3.5rem;
+        height: 3.5rem;
+        top: -2rem;
+        right: 2rem;
+    }
+    .copyright p {
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 360px) {
+    .menu-toggler {
+        width: 3rem;
+        height: 3rem;
+        top: 2rem;
+        right: 2rem;
+    }
+    .landing-text h5 {
+        font-size: 4rem;
+    }
+    .landing-text h2,
+    .landing-text h1 {
+        font-size: 1.2rem;
+    }
+    .trait {
+        width: 160px;
+    }
+    .section-heading h4 {
+        font-size: 3.5rem;
+        letter-spacing: 3px;
+    }
+    .section-heading h4::before,
+    .section-heading h4::after {
+        bottom: -0.3rem;
+    }
+    .section-heading h4::before {
+        width: 13rem;
+    }
+    .section-heading h5 {
+        font-size: 1.1rem;
+        letter-spacing: 1.2px;
+    }
+    .about-heading h5 {
+        font-size: 2.3rem;
+        letter-spacing: 1px;
+    }
+    .about-heading p {
+        font-size: 1.1rem;
+    }
+    .nav-list i {
+        padding: 0 25px;
+        font-size: 1.5rem;
+    }
+    #hobbies {
+        padding-top: 0;
+        font-size: 0.9rem;
+    }
+    .portfolio-description h5 {
+        font-size: 1.7rem;
+        letter-spacing: 1px;
+    }
+    .portfolio-description p {
+        font-size: 1rem;
+        letter-spacing: 1px;
+    }
+    .technos {
+        padding-top: 5px;
+    }
+    .portfolio-description input {
+        margin-top: 10px;
+        padding: 5px 10px;
+        width: 50%;
+        font-size: 1.4rem;
+    }
+    .portfolio-description .fab {
+        padding-right: 2px;
+    }
+    .my-skills {
+        grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+        grid-gap: 2rem;
+    }
+    .skill h6 {
+        letter-spacing: 1.5px;
+        font-size: 14px;
+    }
+    .icon-container {
+        width: 4rem;
+        height: 4rem;
+    }
+    .icon-container i {
+        font-size: 2.1rem;
+    }
+    .tools h6, .know-how h6 {
+        font-size: 14px;
+        letter-spacing: 1.3px;
+    }
+    .tools p, .know-how p {
+        font-size: 12px;
+        letter-spacing: 1.3px;
+    }
+    .studies ul {
+        padding: 2rem;
+        width: 90%;
+    }
+    .studies h5 {
+        line-height: 1.5;
+        font-size: 1.4rem;
+    }
+    .studies p {
+        font-size: 0.9rem;
+    }
+    form label {
+        font-size: 2.2rem;
+    }
+    input[type="submit"] {
+        margin-left: 25%;
+        width: 50%;
+        font-size: 1.4rem;
+        letter-spacing: 1.5px;
+    }
+    .up {
+        width: 3.5rem;
+        height: 3.5rem;
+        top: -2rem;
+        right: 2rem;
+    }
+    .copyright p {
+        font-size: 1rem;
+    }
+}
