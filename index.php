@@ -91,7 +91,7 @@
                         <p>Il s'agit de mon CV personnel créé à l'issue de ma formation et de mon stage, il n'est pas totalement abouti mais je suis plutôt contente du résultat de ce premier vrai projet.</p>
                         <p class="technos">Technologies utilisées : <i class="fab fa-html5"></i> <i class="fab fa-css3"></i> <i class="fab fa-php"></i> <i class="fab fa-js"></i></p>
 
-                        <a href="https://github.com/MathildeHmn/personalCV" target="_blank"><input type="button" value="Voir sur GitHub"></a>
+                        <a href="https://github.com/MathildeHmn/personal-cv" target="_blank"><input type="button" value="Voir sur GitHub"></a>
                     </div>
                 </div>
 
@@ -105,7 +105,7 @@
                         <p>Une petite application de compte à rebours. Ici fixé à Noël 2020. J'ai réalisé ce compte à rebours avec HTML, CSS pour tout le visuel et les calculs se font avec JavaScript.</p>
                         <p class="technos">Technologies utilisées : <i class="fab fa-html5"></i> <i class="fab fa-css3"></i> <i class="fab fa-js"></i></p>
 
-                        <a href="https://github.com/MathildeHmn/countdownTimer" target="_blank"><input type="button" value="Voir sur GitHub"></a>
+                        <a href="https://github.com/MathildeHmn/countdown-timer" target="_blank"><input type="button" value="Voir sur GitHub"></a>
                     </div>
                 </div>
 
@@ -119,7 +119,7 @@
                         <p>Une petite application de Todo List qui permet de lister des tâches, les cocher quand elles sont terminées et les supprimer définitivement si on ne souhaite plus les voir.</p>
                         <p class="technos">Technologies utilisées : <i class="fab fa-html5"></i> <i class="fab fa-css3"></i> <i class="fab fa-js"></i> <i class="fab fa-sass"></i></p>
 
-                        <a href="https://github.com/MathildeHmn/todolistApp" target="_blank"><input type="button" value="Voir sur GitHub"></a>
+                        <a href="https://github.com/MathildeHmn/todolist-app" target="_blank"><input type="button" value="Voir sur GitHub"></a>
                     </div>
                 </div>
             </div>
