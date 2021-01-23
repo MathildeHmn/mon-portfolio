@@ -1,3 +1,4 @@
+// Animation "Navbar" (menu "Hamburger" à droite de la page)
 $(document).ready(function () {
   $('.menu-toggler').on('click', function () {
     $(this).toggleClass('open');
@@ -21,6 +22,7 @@ $(document).ready(function () {
     }, 1000);
   });
 
+// Réglage de la durée de remontée de la page grâce au bouton bas dans le footer
   AOS.init({
     easing: 'ease',
     duration: 700,
