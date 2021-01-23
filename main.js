@@ -22,7 +22,8 @@ $(document).ready(function () {
     }, 1000);
   });
 
-// Réglage de la durée de remontée de la page grâce au bouton bas dans le footer
+// Réglage de la durée de remontée de la page grâce au bouton bas dans le footer 
+// + Initialisation avant utilisation dans index.php (vitesse d'apparition des éléments)
   AOS.init({
     easing: 'ease',
     duration: 700,
