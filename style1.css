@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700;800&family=Mr+Dafoe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700;800&display=swap');
 
 /* COLORS */
 :root {
-    --color-hex-1: #241E3A;
-    --color-hex-2: #F2C4B3;
-    --color-hex-3: #A66658;
-    --color-hex-4: #D9998B;
-    --color-hex-5: #BE5353;
-    --color-hex-6: #382E5E;
-    --color-hex-7: #17122B;
+    --color-hex-1: #424742;
+    --color-hex-2: #C4D3C4;
+    --color-hex-3: #7D877D;
+    --color-hex-4: #899489;
+    --color-hex-5: #656D65;
+    --color-hex-6: #F4DCF1;
+    --color-hex-7: #FFF4FD;
 }
 
 /* GLOBAL */
@@ -23,7 +23,9 @@ html {
     max-width: 200%;
     height: 100%;
     overflow-x: hidden;
-    background-color: var(--color-hex-1);
+    background: #424742;
+    background-image: linear-gradient(transparent 23px, rgb(101, 109, 101) 24px, transparent 24px), linear-gradient(90deg, transparent 23px, rgb(101, 109, 101) 24px, transparent 24px);
+    background-size: 100% 35px, 35px 100%;
     font-family: 'Karla', sans-serif;
 }
 body {
