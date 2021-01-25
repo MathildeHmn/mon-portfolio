@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700;800&display=swap');
 
-/* COLORS */
+/* ---------- COLORS ---------- */
 :root {
-    --color-hex-1: #424742;
-    --color-hex-2: #C4D3C4;
-    --color-hex-3: #7D877D;
-    --color-hex-4: #899489;
-    --color-hex-5: #656D65;
-    --color-hex-6: #F4DCF1;
-    --color-hex-7: #FFF4FD;
+    --color-1: #424742;
+    --color-2: #C4D3C4;
+    --color-3: #7D877D;
+    --color-4: #899489;
+    --color-5: #656D65;
+    --color-6: #F4DCF1;
+    --color-7: #FFF4FD;
 }
 
-/* GLOBAL */
+/* ---------- GLOBAL ---------- */
 * {
     margin: 0;
     padding: 0;
@@ -25,7 +25,7 @@ html {
     overflow-x: hidden;
     background: #424742;
     background-image: linear-gradient(transparent 23px, rgb(101, 109, 101) 24px, transparent 24px), linear-gradient(90deg, transparent 23px, rgb(101, 109, 101) 24px, transparent 24px);
-    background-size: 100% 35px, 35px 100%;
+    background-size: 100% 35px 35px 100%;
     font-family: 'Karla', sans-serif;
 }
 body {
@@ -37,13 +37,13 @@ section {
 }
 a {
     text-decoration: none;
-    color: var(--color-hex-4);
+    color: var(--color-4);
 }
 img {
     width: 85%;
 }
 
-/* REUSABLE */
+/* ---------- REUSABLE ---------- */
 .container {
     width: 80%;
     max-width: 200%;
@@ -58,10 +58,12 @@ img {
 }
 .section-heading h4 {
     font-size: 6rem;
-    letter-spacing: 8px;
-    color: var(--color-hex-4);
+    letter-spacing: 10px;
+    color: var(--color-6);
     position: relative;
     margin-bottom: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 300;
 }
 .section-heading h4::before,
 .section-heading h4::after {
@@ -70,7 +72,7 @@ img {
     bottom: 0.5rem;
     left: 50%;
     transform: translateX(-50%);
-    background-color: var(--color-hex-5);
+    background-color: var(--color-4);
 }
 .section-heading h4::before {
     width: 17rem;
@@ -78,9 +80,8 @@ img {
     border-radius: .8rem;
 }
 .section-heading h5 {
-    padding-top: 1px;
-    font-size: 1.4rem;
-    color: var(--color-hex-2);
+    font-size: 1.5rem;
+    color: var(--color-2);
     font-weight: 100;
     letter-spacing: 1.4px;
 }
