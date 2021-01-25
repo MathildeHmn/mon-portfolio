@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
         <link rel="stylesheet" href="./style1.css">
         <link rel="stylesheet" href="./mediaqueries1.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 
         <title>Mathilde Hamon - Développeuse Web à Angers.</title>
     </head>
@@ -66,7 +67,7 @@
                     </div>
 
                     <div class="hobbies" id="hobbies" data-aos="fade-left" data-aos-delay="900">
-                        <p>Quelques petites choses que j' <i class="fas fa-heart"></i> : l'art/le graphisme, la décoration d'intérieur, les séries TV (énormément), les jeux vidéos, les nouvelles technologies, les animaux, la cuisine et plein d'autres choses...</p>
+                        <p>Quelques petites centres d'intérêt : l'art/le graphisme, la décoration d'intérieur, les séries TV (énormément), les jeux vidéos, les nouvelles technologies, les animaux, la cuisine et plein d'autres choses...</p>
                     </div>
 
                     <div class="cv">
@@ -97,8 +98,9 @@
 
                         <a href="https://github.com/MathildeHmn/weather-app" target="_blank"><input type="button" value="Voir sur GitHub"></a>
                     </div>
+                </div>
 
-                    <div class="portfolio-item">
+                <div class="portfolio-item">
                     <div class="portfolio-img" data-aos="fade-right" data-aos-delay="300">
                         <img class="portfolio-img" src="./images/portitem-2.png" alt="portfolio-item-2">
                     </div>
@@ -129,7 +131,6 @@
                         <a href="https://github.com/MathildeHmn/todolist-app" target="_blank"><input type="button" value="Voir sur GitHub"></a>
                     </div>
                 </div>
-            </div>
         </section>
 
         <section class="skills" id="skills">
@@ -232,12 +233,14 @@
                 <div class="studies" data-aos="fade-down" data-aos-delay="300">
                     <ul>
                         <li class="educ-content">
-                            <h6>septembre 2019 - mai 2020</h6>
+                            <h6><i class="fas fa-star"></i> septembre 2019 - mai 2020</h6>
                             <h5>Formation au Développement Web et Web Mobile (Titre équivalent Bac+2) - Titre obtenu - à l'ENI École Informatique - Angers.</h5>
                         </li>
+                        <br>
+                        <br>
 
                         <li class="educ-content">
-                            <h6>septembre 2014 - juin 2017</h6>
+                            <h6><i class="fas fa-star"></i> septembre 2014 - juin 2017</h6>
                             <h5>Licence en Langues Étrangères Appliquées - Licence obtenue - à la Faculté de Lettres, Langues et Sciences Humaines - Angers.</h5>
                             <p>• Anglais/Espagnol, marketing, commerce international, économie, droit des entreprises.</p>
                         </li>
@@ -332,3 +335,6 @@
     </body>
 
 </html>
+
+
+
