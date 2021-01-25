@@ -11,7 +11,7 @@
 
         <link rel="shortcut icon" type="image/png" href="./images/icon.png">
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
-        <link rel="stylesheet" href="./style2222.css">
+        <link rel="stylesheet" href="./style1.css">
         <link rel="stylesheet" href="./mediaqueries1.css">
 
         <title>Mathilde Hamon - Développeuse Web à Angers.</title>
