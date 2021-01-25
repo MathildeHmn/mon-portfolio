@@ -2,6 +2,14 @@
 
 /* ---------- COLORS ---------- */
 :root {
+    /* --color-hex-1: #241E3A;
+    --color-hex-2: #F2C4B3;
+    --color-hex-3: #A66658;
+    --color-hex-4: #D9998B;
+    --color-hex-5: #BE5353;
+    --color-hex-6: #382E5E;
+    --color-hex-7: #17122B; */
+
     --color-1: #424742;
     --color-2: #C4D3C4;
     --color-3: #7D877D;
@@ -86,10 +94,9 @@ img {
     letter-spacing: 1.4px;
 }
 
-/* HEADER */
+/* ---------- HEADER ---------- */
 /* .fa-snowflake {
     animation: fall linear forwards;
-    color: var(--color-hex-7);
     position: absolute;
     top: -20px;
 }
@@ -108,8 +115,8 @@ header {
     position: fixed;
     top: -100vh;
     z-index: 50;
-    background-color: var(--color-hex-1);
-    transition: all 650ms cubic-bezier(1,0,0,1);
+    background-color: var(--color-1);
+    transition: all 650ms cubic-bezier(1, 0, 0, 1);
 }
 .nav-list {
     list-style: none;
@@ -123,13 +130,13 @@ li {
     margin: 0 2rem;
 }
 .nav-link {
-    font-family: 'Mr Dafoe', sans-serif;
-    font-size: 3rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.5rem;
     padding: .5rem;
 }
 .nav-link:hover,
 .nav-link:focus {
-    background: linear-gradient(to top, var(--color-hex-2), var(--color-hex-5));
+    background: linear-gradient(to top, var(--color-2), var(--color-5));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -154,7 +161,7 @@ li {
     transform: rotate(-45deg);
 }
 .bar {
-    background: linear-gradient(to right, var(--color-hex-2), var(--color-hex-5));
+    background: linear-gradient(to right, var(--color-2), var(--color-5));
     width: 100%;
     height: 4px;
     border-radius: .8rem;
@@ -164,7 +171,7 @@ li {
 }
 .bar.start {
     transform-origin: right;
-    transition: transform 650ms cubic-bezier(0.54,-0.81,0.57,0.57);
+    transition: transform 650ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
 }
 .open .bar.start {
     transform: rotate(-450deg) translateX(.8rem);
@@ -172,7 +179,7 @@ li {
 .bar.end {
     align-self: flex-end;
     transform-origin: left;
-    transition: transform 650ms cubic-bezier(0.54,-0.81,0.57,0.57);
+    transition: transform 650ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
 }
 .open .bar.end {
     transform: rotate(-450deg) translateX(-.8rem);
@@ -188,41 +195,36 @@ li {
 }
 .landing-text h5 {
     width: 100%;
-    font-size: 8rem;
-    font-family: 'Mr Dafoe', sans-serif;
-    font-weight: 100;
-    color: var(--color-hex-2);
+    font-size: 7rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--color-4);
 }
 .landing-text h1 {
     padding-top: 5px;
     font-size: 2.5rem;
     font-weight: 400;
-    background: linear-gradient(to bottom, var(--color-hex-2), var(--color-hex-5));
+    background: linear-gradient(to bottom, var(--color-2), var(--color-5));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     user-select: none;
-    letter-spacing: 2px;
 }
 .landing-text h2 {
-    margin-top: -20px;
+    margin-top: -9px;
     font-size: 2.5rem;
     font-weight: 400;
-    background: linear-gradient(to bottom, var(--color-hex-2), var(--color-hex-5));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: var(--color-2);
     user-select: none;
-    letter-spacing: 2px;
 }
 .trait {
     margin: auto;
-    margin-top: 30px;
+    margin-top: 20px;
     width: 400px;
-    border-color: var(--color-hex-3);
+    border-color: var(--color-4);
     border-style: solid;
     border-width: 2px;
 }
 
-/* ABOUT */
+/* ---------- ABOUT ---------- */
 .about .container {
     display: flex;
     align-items: center;
@@ -233,57 +235,61 @@ li {
     filter: grayscale(40%);
 }
 .about-heading h5 {
-    font-size: 2.7rem;
-    letter-spacing: 2px;
+    padding-bottom: 5px;
+    font-size: 2.5rem;
     font-weight: 400;
-    color: var(--color-hex-4);
-    border-bottom: 2px solid var(--color-hex-6);
+    color: var(--color-4);
+    border-bottom: 2px solid var(--color-2);
 }
 .about-heading p {
     padding-top: 5px;
     text-align: justify;
-    font-size: 1.3rem;
-    line-height: 1.9;
+    font-size: 1.2rem;
+    line-height: 1.6;
     color: white;
+    font-family: 'Courier New', Courier, monospace;
 }
 .nav-list i {
-    padding-top: 15px;
+    padding: 15px 0;
     font-size: 1.6rem;
-    color: var(--color-hex-2);
+    color: var(--color-2);
 }
 .nav-list i:hover,
 .nav-list i:focus {
-    color: var(--color-hex-6);
+    color: var(--color-4);
 }
 #hobbies {
-    padding-top: 25px;
     font-size: 1.1rem;
     text-align: justify;
-    line-height: 1.9;
+    line-height: 1.6;
     color: white;
 }
 .fa-heart {
-    color: var(--color-hex-5);
+    color: var(--color-6);
 }
 .cv input {
     margin-top: 2%;
     margin-left: 40.5%;
-    background-color: var(--color-hex-3);
+    background-color: var(--color-3);
     width: 20%;
     border: none;
     outline: none;
     border-radius: .8rem;
-    color: var(--color-hex-6);
+    color: var(--color-1);
     padding: 10px;
     font-weight: bold;
     cursor: pointer;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 .cv input:hover {
-    background-color: var(--color-hex-6);
-    color: var(--color-hex-3);
+    background-color: var(--color-5);
+    color: var(--color-2);
 }
 
-/* PORTFOLIO */
+/* ---------- PORTFOLIO ---------- */
 .portfolio-item {
     display: flex;
     align-items: center;
@@ -294,49 +300,54 @@ li {
     margin-bottom: 0;
 }
 .portfolio-description h5 {
-    margin-bottom: 10px;
-    font-size: 2.3rem;
-    letter-spacing: 3px;
+    margin-bottom: 4px;
+    font-size: 2rem;
     font-weight: 400;
-    color: var(--color-hex-4);
+    color: var(--color-4);
     text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
 }
 .portfolio-description p {
     text-align: justify;
-    font-size: 1.25rem;
-    line-height: 1.7;
+    font-size: 1.2rem;
+    line-height: 1.4;
     letter-spacing: 1.2px;
     color: white;
 }
 .technos {
     padding-top: 10px;
-    padding-bottom: 10px;
-    border-bottom: solid 2px var(--color-hex-6);
+    padding-bottom: 5px;
+    border-bottom: solid 2px var(--color-2);
 }
 .portfolio-description .fab {
     padding-right: 5px;
     font-size: 1.3rem;
-    color: var(--color-hex-3);
+    color: var(--color-2);
 }
 .portfolio-description input {
-    margin-top: 17px;
-    padding: 5px 10px;
-    width: 25%;
-    background-color: var(--color-hex-3);
+    margin-top: 2%;
+    margin-left: 35%;
+    background-color: var(--color-3);
+    width: 35%;
     border: none;
-    border-radius: 10px;
     outline: none;
-    color: var(--color-hex-2);
-    font-size: 1.5rem;
+    border-radius: .8rem;
+    color: var(--color-1);
+    padding: 10px;
+    font-weight: bold;
     cursor: pointer;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 .portfolio-description input:hover,
 .portfolio-description input:focus {
-    color: white;
-    background-color: var(--color-hex-6);
+    background-color: var(--color-5);
+    color: var(--color-6);
 }
 
-/* SKILLS */
+/* ---------- SKILLS ---------- */
 .my-skills {
     margin-top: 5rem;
     display: grid;
@@ -354,18 +365,19 @@ li {
 .skill h6 {
     letter-spacing: 2px;
     font-size: 16px;
-    color: var(--color-hex-2);
+    color: var(--color-2);
+    font-weight: 300;
 }
 .icon-container {
     width: 6rem;
     height: 6rem;
-    border: 3px solid var(--color-hex-4);
-    background-color: var(--color-hex-6);
+    border: 3px solid var(--color-2);
+    background-color: var(--color-4);
     margin-bottom: 1rem;
     display: flex;
 }
 .icon-container i {
-    color: var(--color-hex-2);
+    color: var(--color-7);
     font-size: 3rem;
     margin: auto;
 }
@@ -373,10 +385,10 @@ li {
     margin-top: 3rem;
     padding-left: 0px;
 }
-.tools h6, .know-how h6 {
+.tools h6, .kow-how h6 {
     font-size: 18px;
     letter-spacing: 1.5px;
-    color: var(--color-hex-3);
+    color: var(--color-4);
 }
 .tools p, .know-how p {
     font-size: 16px;
@@ -384,9 +396,9 @@ li {
     letter-spacing: 1.5px;
 }
 
-/* EDUCATION */
+/* ---------- EDUCATION ---------- */
 .studies ul {
-    background-color: var(--color-hex-7);
+    background-color: var(--color-5);
     border-radius: .8rem;
     margin: 0 auto;
     position: relative;
@@ -396,44 +408,46 @@ li {
     width: 80%;
 }
 .studies h5 {
-    line-height: 1.7;
-    font-size: 1.6rem;
+    line-height: 1.5;
+    font-size: 1.4rem;
     font-weight: 200;
     margin-bottom: 1rem;
-    color: var(--color-hex-3);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
 }
 .studies p {
-    padding-top: 5px;
+    /* padding-top: 5px; */
     padding-bottom: 5px;
-    color: var(--color-hex-4);
-    font-size: 1rem;
+    color: var(--color-2);
+    font-size: 1.3rem;
     line-height: 1.5;
 }
 .studies h6 {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     font-weight: 200;
-    color: var(--color-hex-2);
+    color: var(--color-6);
     line-height: 1.5;
+    letter-spacing: 2px;
 }
 .studies .educ-content {
-    border-bottom: 2px dashed var(--color-hex-6);
+    border-bottom: 2px dashed var(--color-6);
     margin-bottom: 1rem;
     padding-bottom: 1rem;
     position: relative;
 }
 
-/* CONTACT */
+/* ---------- CONTACT ---------- */
 .contact {
-    background-color: var(--color-hex-7);
+    background-color: #323532;
 }
 form {
     width: 70%;
     margin: 0 auto;
 }
 form label {
-    font-size: 2.5rem;
-    font-family: 'Mr Dafoe', sans-serif;
-    color: var(--color-hex-3);
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--color-3);
 }
 input,
 select,
@@ -443,8 +457,8 @@ textarea {
     margin-bottom: 5px;
     border: none;
     outline: none;
-    background-color: var(--color-hex-1);
-    color: var(--color-hex-4);
+    background-color: var(--color-1);
+    color: var(--color-4);
 }
 input,
 textarea {
@@ -457,54 +471,55 @@ textarea {
 input[type="submit"] {
     margin-top: 10px;
     margin-left: 30%;
-    background-color: var(--color-hex-4);
+    background-color: var(--color-4);
     width: 40%;
-    color: var(--color-hex-1);
+    color: var(--color-1);
     text-transform: uppercase;
     font-size: 2rem;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     border-radius: .8rem;
     cursor: pointer;
     transition: background-color 650ms;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 }
 input[type="submit"]:hover {
-    color: var(--color-hex-4);
-    background-color: var(--color-hex-5);
+    color: var(--color-6);
+    background: var(--color-5);
 }
 
-/* FOOTER */
+/* ---------- FOOTER ---------- */
 .copyright {
     width: 100%;
     text-align: center;
-    background-color: var(--color-hex-1);
+    background-color: var(--color-1);
     padding: 2rem 0;
     position: relative;
 }
 .up {
-    position: absolute;
+    position: relative;
     width: 5rem;
     height: 5rem;
-    background-color: var(--color-hex-6);
+    background-color: var(--color-2);
     top: -2.5rem;
-    right: 5rem;
+    left: 110rem;
     border-radius: 100%;
     display: flex;
     animation: pulse 2s infinite;
     cursor: pointer;
 }
 .up i {
-    color: var(--color-hex-5);
+    color: var(--color-1);
     font-size: 2rem;
     margin: auto;
 }
 .copyright p {
     font-size: 1.4rem;
     letter-spacing: 2px;
-    font-weight: bold;
-    color: var(--color-hex-3);
+    color: var(--color-6);
 }
 
-/* ANIMATIONS */
+/* ---------- ANIMATIONS ---------- */
 @keyframes pulse {
     0% {
         box-shadow: 0 0 0 0 var(--color-hex-5);
