@@ -20,7 +20,6 @@
 
     <body>
         <header>
-            <!-- <i class="far fa-snowflake"></i> -->
             <div class="menu-toggler">
                 <div class="bar half start"></div>
                 <div class="bar"></div>
