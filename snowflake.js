@@ -1,5 +1,5 @@
 // Snowflake
-setInterval(createSnowFlake, 50);
+/* setInterval(createSnowFlake, 50);
 
 function createSnowFlake() {
     const snow_flake = document.createElement('i');
@@ -15,4 +15,4 @@ function createSnowFlake() {
     setTimeout(() => {
         snow_flake.remove();
     }, 50000);
-}
+} */
